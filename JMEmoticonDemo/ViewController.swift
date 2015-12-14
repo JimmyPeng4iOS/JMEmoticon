@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         addChildViewController(emoticonVC)
         
         textView.inputView = emoticonVC.view
-        
+
         // 弹出键盘
         textView.becomeFirstResponder()
     }
